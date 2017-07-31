@@ -1,18 +1,22 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
 .wrap{
 	width: 600px;
 	height: 450px;
 	border: solid 4px #3366ff;
 	text-align: center;
 	margin: 0 auto;
-	font-family: Roboto;
+	font-family: 'Roboto';
 	font-size: 32px;
 	font-weight: bold;
 }
 .column_1, .column_2, .column_3{
 	height: 90%;
-	width: 33.33%;
+	width: 190px;
 	box-sizing: border-box;
-	float: left;
+	display: inline-block;
 	margin: 20px auto;
 	position: relative;
 }
@@ -23,7 +27,6 @@
 	width: 36px;
 	height: 36px;
 	background: #3366ff;
-	margin-left: 4px;
 	position: absolute;
 	
 }
@@ -46,23 +49,23 @@ p{
 }
 .item1{
 	left: 0px;
-	top: 66px;
+	top: 36px;
 }
 .item2{
 	left: 38px;
-	top: 104px;
+	top: 74px;
 }
 .item3{
 	right: 4px;
-	top: 214px;
+	top: 184px;
 }
 .item3, .item5{
 	right: 4px;
-	top: 214px;
+	top: 184px;
 }
 .item4{
 	right: 45px;
-	top: 96px;	
+	top: 66px;	
 }
 .p4{
 	z-index: 1;
